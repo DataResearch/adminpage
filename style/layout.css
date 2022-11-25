@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, :root, .page {
+    height: 100%;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: max(20%, 150px) 1fr;
+}
+
+.navigation {
+    display: grid;
+    grid-template-rows: repeat(9, 30px);
+    grid-template-columns: 20px 1fr;
+    margin-left: 20px;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.show {
+    flex: 1;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40px 40px;
+}
+
+.messages-user {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+}

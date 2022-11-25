@@ -1,3 +1,28 @@
 :root {
+    --sidebar-background: #1992D4;
+    --sidebar-text-color: #FFFFFF;
+    --heading-background: #FEFEFE;
+    --show-area-background: #E2E8F0;
+    --search-bar-background: #e0e0e0;
+}
 
+.sidebar {
+    background-color: var(--sidebar-background);
+    color: var(--sidebar-text-color);
+}
+
+.header {
+    background-color: var(--heading-background);
+}
+
+.show {
+    background-color: var(--show-area-background);
+}
+
+.profile-icon {
+    background-color: yellow;
+}
+
+input.search:focus, input.search {
+    background-color: var(--search-bar-background);
 }
