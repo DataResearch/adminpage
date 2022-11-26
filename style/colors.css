@@ -4,6 +4,8 @@
     --heading-background: #FEFEFE;
     --show-area-background: #E2E8F0;
     --search-bar-background: #e0e0e0;
+    --button-background: var(--sidebar-background);
+    --button-text-color: var(--sidebar-text-color);
 }
 
 .sidebar {
@@ -21,8 +23,4 @@
 
 .profile-icon {
     background-color: yellow;
-}
-
-input.search:focus, input.search {
-    background-color: var(--search-bar-background);
 }
