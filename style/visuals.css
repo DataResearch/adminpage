@@ -36,3 +36,14 @@ button, button:focus, button:hover {
     padding: 5px 10px;
     border-radius: 20px;
 }
+
+.greeting {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-size: 1.1rem;
+}

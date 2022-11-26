@@ -15,11 +15,17 @@ body, :root, .page {
 
 .sidebar {
     display: grid;
-    grid-template-rows: repeat(10, 30px);
+    grid-template-rows:
+            repeat(1, 30px)
+            10px /* additional space elements height */
+            repeat(6, 30px)
+            10px  /* additional space elements height */
+            repeat(3, 30px);
     grid-template-columns: 20px 1fr;
     padding-left: 20px;
     padding-top: 20px;
-    gap: 14px;
+    gap: 5px;
+    font-weight: bold;
 }
 
 .icon {
@@ -45,7 +51,7 @@ body, :root, .page {
 .header {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 40px 40px;
+    grid-template-rows: 1fr 1fr;
 }
 
 .messages-user {
@@ -59,4 +65,19 @@ body, :root, .page {
     width: 40px;
     height: 40px;
     border-radius: 90px;
+}
+
+.profile-icon-max {
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+}
+
+.logged-in-user {
+    display: flex;
+    gap: 15px;
+}
+
+.greeting {
+    align-self: center;
 }

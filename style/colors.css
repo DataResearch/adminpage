@@ -6,6 +6,7 @@
     --search-bar-background: #e0e0e0;
     --button-background: var(--sidebar-background);
     --button-text-color: var(--sidebar-text-color);
+    --profile-pic-placeholder: yellow;
 }
 
 .sidebar {
@@ -22,5 +23,9 @@
 }
 
 .profile-icon {
-    background-color: yellow;
+    background-color: var(--profile-pic-placeholder);
+}
+
+.profile-icon-max {
+    background-color: var(--profile-pic-placeholder);
 }
