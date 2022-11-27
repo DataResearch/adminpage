@@ -1,12 +1,29 @@
 :root {
+    /* sidebar */
     --sidebar-background: #1992D4;
     --sidebar-text-color: #FFFFFF;
+
+    /* heading bar */
     --heading-background: #FEFEFE;
+
+    /* cards display area */
     --show-area-background: #E2E8F0;
+
+    /* search input field */
     --search-bar-background: #e0e0e0;
+
+    /* global button actions */
     --button-background: var(--sidebar-background);
     --button-text-color: var(--sidebar-text-color);
+
+    /* profile picture tint */
     --profile-pic-placeholder: yellow;
+
+    /* project cards */
+    --card-background: #FFFFFF;
+    --card-text-color: black;
+    --card-text-detail-color: #636363;
+    --card-side-stripe: #DEA726;
 }
 
 .sidebar {
@@ -28,4 +45,20 @@
 
 .profile-icon-max {
     background-color: var(--profile-pic-placeholder);
+}
+
+.card {
+    background-color: var(--card-background);
+}
+
+.marker {
+    background-color: var(--card-side-stripe);
+}
+
+.card-content {
+    color: var(--card-text-color);
+}
+
+.project-desc {
+    color: var(--card-text-detail-color);
 }
